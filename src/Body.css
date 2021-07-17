@@ -1,0 +1,36 @@
+/* 131517
+#03030d */
+.Header__icon {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.5rem;
+  width: 5.6rem;
+  height: 1.4rem;
+}
+
+.icon {
+  font-size: medium !important;
+  padding-top: 3px;
+}
+/* .icon:focus {
+  color: #ffb200;
+} */
+
+.Header {
+  padding-top: 10px;
+  padding-left: 100px;
+}
+
+.Body {
+  height: 100vh;
+  /* background-color: #131517; */
+  /* color: #0A0E21; */
+  /* color: #1D1E33; */
+}
+.Feature__Containers {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  padding: 0px 10%;
+}

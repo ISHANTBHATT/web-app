@@ -1,0 +1,28 @@
+.Feature__Button {
+  /* background-color: #1d1e33 !important; */
+  width: 200px;
+  height: 100px;
+  border-radius: 0.5rem !important;
+}
+
+.Feature__title {
+  font-weight: 500;
+}
+
+.Feature__Button:focus {
+  background-color: #24d876;
+}
+
+.Feature__Button:hover {
+  background-color: #24d876 !important;
+}
+
+@media (max-width: 1270px) {
+  .Feature__Button {
+    width: 150px;
+    height: 80px;
+  }
+  .Feature__title {
+    font-size: 15px;
+  }
+}
